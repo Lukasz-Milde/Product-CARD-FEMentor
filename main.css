@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin: 0;
+}
+
+.card {
+  margin: 25px 13px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px 10px 0 0;  
+}
+
+.description {
+  padding: 10px;
+}
