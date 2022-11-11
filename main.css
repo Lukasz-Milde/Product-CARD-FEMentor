@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: hsl(30, 38%, 92%);
   margin: 0;
@@ -17,5 +18,61 @@ img {
 }
 
 .description {
-  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+
+p, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+p {
+  font-size: 14px;
+}
+
+.general {
+  letter-spacing: 0.25em;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  margin-top: 10px;
+}
+
+.reduced-price {
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  margin: 0 20px 0 0; 
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+.previous-price {
+  margin-left: 0;
+}
+
+.previous-price::after {
+  display: inline-block;
+  content: "";
+  height: 2px;
+  width: 50px;
+  margin: 0 30px 4px 0;
+  background-color: hsl(228, 12%, 48%);
 }
