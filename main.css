@@ -1,3 +1,8 @@
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+______________GENERALS
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +11,14 @@ body {
   background-color: hsl(30, 38%, 92%);
   margin: 0;
 }
+
+p {
+  font-size: 14px;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+_____________LAYOUT AND STYLES
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 #desktop {
   display: none;
@@ -30,10 +43,6 @@ img {
 p, h3 {
   font-family: 'Montserrat', sans-serif;
   color: hsl(228, 12%, 48%);
-}
-
-p {
-  font-size: 14px;
 }
 
 .general {
@@ -76,8 +85,9 @@ button {
   transition: ease-in 0.2s;
 }
 
-button:hover {
-  background-color: hsl(138, 91%, 17%);
+button:hover,
+button:focus {
+  background-color: hsl(138, 91%, 17%); 
 }
 
 
@@ -88,6 +98,10 @@ button:hover {
 .fa-solid {
     margin-right: 0.6rem;
 }
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+_____________MEDIA QUERIES
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 @media(max-width: 255px) {
   .prices {
