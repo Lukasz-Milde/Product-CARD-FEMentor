@@ -90,7 +90,6 @@ button:focus {
   background-color: hsl(138, 91%, 17%); 
 }
 
-
 .previous-price {
   margin-left: 0;
 }
@@ -160,7 +159,6 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
     border-radius: 10px 0 0 10px;
   }
 
-  
   .description {
     display: flex;
     flex-direction: column;
