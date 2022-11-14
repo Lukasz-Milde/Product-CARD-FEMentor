@@ -48,7 +48,7 @@ As I have little experience in CSS, this challenge wasn't a big issue for me, bu
 Mobile First approach was new to me, and working with media queries.
 If we talk about "media queries" the next step for me was to change all PX units to EM, REM, and %. I have to admit- I fell in love with them instantly.
 Even HTML had a surprise for me. After the first look at prices, I thought I could use ::before pseudo-element to "draw a line" across the previous one.
-I faced trouble, so I tried to think outside of the box. And keep it even more simple. I have found an article (link provided in the "Useful resources" section below) about strikethroughs. I've used <s> tag and thought that solution couldn't be easier :)
+I faced trouble, so I tried to think outside of the box. And keep it even more simple. I have found an article (link provided in the "Useful resources" section below) about strikethroughs. I've used '<s>' tag and thought that solution couldn't be easier :)
 Finally, my project was ready to GO!
 Not really. It's time to add comments to CSS. 
 Ready? Not yet. Favicon was the cherry on top of the cake.
