@@ -12,7 +12,8 @@ body {
 }
 
 .card {
-  margin: 25px 13px;
+  max-width: 90%;
+  margin: 2em auto;
   background-color: white;
   border-radius: 10px;
 }
@@ -23,7 +24,7 @@ img {
 
 .description {
   font-family: 'Montserrat', sans-serif;
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 p, h3 {
@@ -45,14 +46,14 @@ p {
 
 h1 {
   font-family: 'Fraunces', serif;
-  margin-top: 10px;
+  margin-top: 0.7rem;
 }
 
 .reduced-price {
   font-family: 'Fraunces', serif;
   font-size: 30px;
   color: hsl(158, 36%, 37%);
-  margin: 0 20px 0 0; 
+  margin: 0 0.7rem 0 0; 
 }
 
 .prices {
@@ -66,10 +67,9 @@ button {
   background-color: hsl(158, 36%, 37%);
   color: white;
   display: block;
-  margin-top: 7px;
+  margin-top: 0.5rem;
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 1.1em;
   border-radius: 7px;
   border: none; 
   cursor: pointer;
@@ -86,7 +86,26 @@ button:hover {
 }
 
 .fa-solid {
-    margin-right: 8px;
+    margin-right: 0.6rem;
+}
+
+@media(max-width: 255px) {
+  .prices {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 520px) {
+
+  .card {
+    max-width: 30rem;
+  }
+
+  .description {
+    padding: 2rem;
+  }
+
 }
 
 @media(min-width: 1440px) {
@@ -95,27 +114,44 @@ button:hover {
     display: none;
   }
 
-  #desktop {
-    max-width: 300px;
-    display: block;
-    border-radius: 10px 0 0 10px;
-  }
-
   .card {
-    max-width: 700px;
+    max-width: 40%;
+    max-height: 60%;
     display: flex;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    justify-content: space-between;
   }
+
+  .general {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2.0rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  #desktop {
+    max-width: 50%;
+    display: block;
+    border-radius: 10px 0 0 10px;
+  }
+
   
   .description {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    padding: 30px;
+    max-width: 50%;
+    padding: 2rem;
     justify-content: space-between;
   }
 }
